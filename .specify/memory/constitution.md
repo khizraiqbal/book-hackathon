@@ -1,55 +1,54 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 0.1.0 → 1.0.0
+Added sections: All principles and governance sections
+Modified principles: None (new constitution)
+Removed sections: None
+Templates requiring updates: ✅ .specify/templates/plan-template.md, ✅ .specify/templates/spec-template.md, ✅ .specify/templates/tasks-template.md
+Follow-up TODOs: None
+-->
+# AI Technical Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-First Development
+All development must begin with comprehensive specifications using Spec-Kit Plus. No implementation work begins without approved, complete specifications that detail requirements, acceptance criteria, and architectural decisions.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Content Accuracy and Verification
+All book content must be accurate, verifiable, and based on official documentation. No placeholders, speculative content, or unverified information is allowed. All claims must be backed by authoritative sources.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clean, Modular Architecture (NON-NEGOTIABLE)
+Code must be clean, modular, well-documented, and follow separation of concerns. Frontend, backend, and data layers must remain separate. Components must be independently testable and reusable where appropriate.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Security and Secrets Management
+All secrets must be managed through environment variables. No hardcoded credentials, API keys, or sensitive information in source code. All security best practices must be followed in both frontend and backend implementations.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Tech Stack Adherence
+Use only the approved technology stack: Docusaurus for the static site, OpenAI Agents or ChatKit for the RAG chatbot, FastAPI for the backend, Neon Serverless Postgres for the database, and Qdrant Cloud for vector storage. No additional technologies without explicit approval.
 
-### [PRINCIPLE_6_NAME]
+### VI. Deployment and Reproducibility
+The entire project must be reproducible from the repository. All build and deployment steps must be documented and automated. GitHub Pages deployment must be successful and reliable.
 
+## Additional Constraints and Requirements
 
-[PRINCIPLE__DESCRIPTION]
+Technology Stack: Docusaurus, OpenAI Agents/ChatKit, FastAPI, Neon Serverless Postgres, Qdrant Cloud, GitHub Pages.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+Performance Standards: Site must load quickly, RAG chatbot must respond within 3 seconds for 95% of queries.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+Security Requirements: All API calls must be authenticated, sensitive data must be encrypted, and proper error handling must not expose system details.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow and Quality Standards
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Spec-Driven Development: All work follows the Spec-Kit Plus workflow (spec → plan → tasks → implementation).
+
+Testing Requirements: Unit tests for all backend functions, integration tests for API endpoints, and end-to-end tests for critical user flows including the RAG chatbot functionality.
+
+Code Quality: All code must follow established patterns, include proper documentation, and pass linting and security scans.
+
+Review Process: All pull requests must include spec verification, code review, and successful CI/CD pipeline completion before merging.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other development practices. All development work must comply with these principles. Amendments require documentation of the change, approval from project maintainers, and an updated implementation plan. All pull requests and code reviews must verify compliance with these principles. Use this constitution as the primary guidance for development decisions.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-23 | **Last Amended**: 2025-12-23

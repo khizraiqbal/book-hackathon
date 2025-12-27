@@ -1,0 +1,381 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Yellow, Green, and White theme */
+:root {
+  /* Vibrant yellow, green, and white color palette */
+  --ifm-color-primary: #2e8b57; /* Sea green for primary actions */
+  --ifm-color-primary-dark: #256e45;
+  --ifm-color-primary-darker: #1e5a39;
+  --ifm-color-primary-darkest: #17462d;
+  --ifm-color-primary-light: #3da46d;
+  --ifm-color-primary-lighter: #4db07d;
+  --ifm-color-primary-lightest: #65c293;
+
+  /* Yellow accent color */
+  --ifm-color-yellow: #ffd700; /* Gold yellow */
+  --ifm-color-yellow-light: #ffdf40;
+  --ifm-color-yellow-dark: #d4af00;
+  --ifm-color-yellow-contrast-background: #fff9c4;
+
+  /* Green accent color */
+  --ifm-color-green: #2e8b57; /* Sea green */
+  --ifm-color-green-light: #3da46d;
+  --ifm-color-green-dark: #256e45;
+  --ifm-color-green-contrast-background: #e8f5e9;
+
+  /* White and light backgrounds */
+  --ifm-color-white: #ffffff;
+  --ifm-color-light: #f8f9fa;
+  --ifm-color-lighter: #f1f3f5;
+  --ifm-color-lightest: #e9ecef;
+
+  /* Typography settings */
+  --ifm-font-family-base: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --ifm-line-height-base: 1.6;
+  --ifm-paragraph-margin-bottom: 1.2rem;
+  --ifm-heading-line-height: 1.3;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.75rem;
+  --ifm-h4-font-size: 1.5rem;
+  --ifm-h5-font-size: 1.25rem;
+  --ifm-h6-font-size: 1rem;
+  --ifm-code-font-size: 0.85rem;
+  --ifm-code-padding-horizontal: 0.5rem;
+  --ifm-code-padding-vertical: 0.25rem;
+
+  /* Content area width */
+  --ifm-container-width: 1200px;
+  --ifm-container-width-xl: 1400px;
+
+  /* Spacing */
+  --ifm-spacing-horizontal: 2rem;
+  --ifm-spacing-vertical: 1.5rem;
+
+  /* Admonitions with yellow/green theme */
+  --ifm-color-info-contrast-background: var(--ifm-color-yellow-contrast-background);
+  --ifm-color-success-contrast-background: var(--ifm-color-green-contrast-background);
+  --ifm-color-warning-contrast-background: #fff8e1;
+  --ifm-color-danger-contrast-background: #ffebee;
+
+  /* Code block styling */
+  --ifm-pre-padding: 1.5rem;
+  --ifm-pre-background: var(--ifm-color-light);
+  --ifm-code-background: var(--ifm-color-lighter);
+}
+
+/* Dark mode - Yellow/Green theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #4caf50; /* Light green for contrast */
+  --ifm-color-primary-dark: #43a047;
+  --ifm-color-primary-darker: #388e3c;
+  --ifm-color-primary-darkest: #2e7d32;
+  --ifm-color-primary-light: #66bb6a;
+  --ifm-color-primary-lighter: #81c784;
+  --ifm-color-primary-lightest: #a5d6a7;
+
+  /* Dark mode yellow accent */
+  --ifm-color-yellow: #ffeb3b; /* Bright yellow */
+  --ifm-color-yellow-light: #fff176;
+  --ifm-color-yellow-dark: #fdd835;
+  --ifm-color-yellow-contrast-background: #352e0e;
+
+  /* Dark mode green accent */
+  --ifm-color-green: #4caf50; /* Light green */
+  --ifm-color-green-light: #66bb6a;
+  --ifm-color-green-dark: #43a047;
+  --ifm-color-green-contrast-background: #1c3d20;
+
+  /* Dark theme backgrounds */
+  --ifm-pre-background: #1e1e1e;
+  --ifm-code-background: #2d2d2d;
+  --ifm-color-info-contrast-background: var(--ifm-color-yellow-contrast-background);
+  --ifm-color-success-contrast-background: var(--ifm-color-green-contrast-background);
+  --ifm-color-warning-contrast-background: #403a1c;
+  --ifm-color-danger-contrast-background: #401e23;
+}
+
+/* Yellow/Green theme typography enhancements */
+.docusaurus-highlight-code-line {
+  background-color: rgba(46, 139, 87, 0.15);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(76, 175, 80, 0.2);
+}
+
+/* Content area with yellow/green theme */
+.main-wrapper {
+  max-width: var(--ifm-container-width-xl) !important;
+  margin: 0 auto;
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+
+/* Enhanced typography for yellow/green theme */
+.markdown {
+  font-size: 1.1rem;
+  line-height: var(--ifm-line-height-base);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.markdown h1 {
+  margin-top: 0;
+  font-weight: 700;
+  border-bottom: 2px solid var(--ifm-color-yellow);
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] .markdown h1 {
+  border-bottom: 2px solid var(--ifm-color-yellow);
+}
+
+/* Yellow/green theme code blocks */
+.prism-code {
+  border-radius: 4px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Yellow/green theme admonitions */
+.alert {
+  border-radius: 4px;
+  border-left-width: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.alert--info {
+  border-left-color: var(--ifm-color-yellow);
+  background-color: var(--ifm-color-info-contrast-background);
+}
+
+.alert--success {
+  border-left-color: var(--ifm-color-green);
+  background-color: var(--ifm-color-success-contrast-background);
+}
+
+.alert--warning {
+  border-left-color: var(--ifm-color-yellow);
+  background-color: var(--ifm-color-warning-contrast-background);
+}
+
+.alert--danger {
+  border-left-color: #f44336;
+  background-color: var(--ifm-color-danger-contrast-background);
+}
+
+/* Enhanced sidebar for yellow/green theme */
+.menu {
+  font-size: 0.9rem;
+}
+
+.menu__list {
+  margin-bottom: 0.5rem;
+}
+
+.menu__link--active {
+  font-weight: 600;
+  border-left: 3px solid var(--ifm-color-yellow);
+  padding-left: 0.75rem;
+  color: var(--ifm-color-green);
+}
+
+.menu__link:hover {
+  color: var(--ifm-color-green);
+}
+
+/* Yellow/green theme navigation */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 0.75rem 0;
+  background-color: var(--ifm-color-white);
+  border-bottom: 2px solid var(--ifm-color-yellow);
+}
+
+.navbar__item,
+.navbar__brand {
+  font-weight: 500;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-green);
+}
+
+.navbar__title {
+  color: var(--ifm-color-green);
+  font-weight: 600;
+}
+
+/* Enhanced footer for yellow/green theme */
+.footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--ifm-color-yellow);
+  background-color: var(--ifm-color-lighter);
+}
+
+/* Yellow/green theme table styling */
+.markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border: 2px solid var(--ifm-color-yellow);
+}
+
+.markdown table th {
+  background-color: var(--ifm-color-green);
+  color: var(--ifm-color-white);
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-green);
+  text-align: left;
+}
+
+.markdown table td {
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-green);
+  text-align: left;
+}
+
+[data-theme='dark'] .markdown table th {
+  background-color: var(--ifm-color-green-dark);
+}
+
+/* Enhanced image styling */
+.markdown img {
+  margin: 1.5rem auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(46, 139, 87, 0.2);
+  border: 1px solid var(--ifm-color-yellow);
+}
+
+/* Yellow/green theme list styling */
+.markdown ul,
+.markdown ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.markdown li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown li::marker {
+  color: var(--ifm-color-green);
+}
+
+/* Enhanced code inline styling */
+.markdown code {
+  background-color: var(--ifm-code-background);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.85em;
+  border: 1px solid var(--ifm-color-yellow);
+}
+
+[data-theme='dark'] .markdown code {
+  background-color: var(--ifm-code-background);
+}
+
+/* Yellow/green theme blockquote styling */
+.markdown blockquote {
+  border-left: 4px solid var(--ifm-color-yellow);
+  background-color: var(--ifm-color-yellow-contrast-background);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
+}
+
+[data-theme='dark'] .markdown blockquote {
+  background-color: var(--ifm-color-yellow-contrast-background);
+}
+
+/* Content container with yellow/green theme */
+.container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* Chapter navigation with yellow/green theme */
+.pagination-nav {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--ifm-color-yellow);
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--ifm-color-green);
+  border-radius: 4px;
+}
+
+.pagination-nav__sublabel {
+  color: var(--ifm-color-green);
+}
+
+/* Button styling with yellow/green theme */
+.button {
+  background-color: var(--ifm-color-green);
+  border-color: var(--ifm-color-green);
+  color: var(--ifm-color-white);
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary-darker);
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-yellow);
+  border-color: var(--ifm-color-yellow);
+  color: var(--ifm-color-white);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-yellow-dark);
+  border-color: var(--ifm-color-yellow-dark);
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 996px) {
+  .main-wrapper {
+    padding: 0 var(--ifm-spacing-horizontal);
+  }
+
+  .markdown {
+    font-size: 1rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .footer,
+  .pagination-nav {
+    display: none;
+  }
+
+  .main-wrapper {
+    max-width: none;
+    padding: 0;
+  }
+}

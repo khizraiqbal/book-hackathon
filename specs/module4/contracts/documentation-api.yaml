@@ -1,0 +1,71 @@
+# Documentation API Contract for Module 4 - Vision-Language-Action (VLA) & Capstone
+
+openapi: 3.0.0
+info:
+  title: Book Documentation API
+  version: 1.0.0
+  description: API for accessing and managing book documentation content
+
+paths:
+  /modules/module4:
+    get:
+      summary: Get Module 4 overview
+      responses:
+        '200':
+          description: Module 4 overview
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: "module4"
+                  title:
+                    type: string
+                    example: "Vision-Language-Action (VLA) & Capstone"
+                  description:
+                    type: string
+                    example: "LLM-driven reasoning, voice control, and autonomous humanoid behavior"
+                  chapters:
+                    type: array
+                    items:
+                      type: string
+                      example: "voice-to-action"
+
+  /modules/module4/chapters/{chapterId}:
+    get:
+      summary: Get specific chapter content
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [voice-to-action, llm-cognitive-planning, autonomous-humanoid]
+      responses:
+        '200':
+          description: Chapter content
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  title:
+                    type: string
+                  content:
+                    type: string
+                    description: Markdown content of the chapter
+                  word_count:
+                    type: integer
+                  code_examples:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        language:
+                          type: string
+                        code:
+                          type: string

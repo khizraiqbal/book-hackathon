@@ -1,0 +1,8 @@
+{
+  "label": "Module 1 - Introduction to Humanoid Robotics",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn the fundamentals of humanoid robotics."
+  }
+}
