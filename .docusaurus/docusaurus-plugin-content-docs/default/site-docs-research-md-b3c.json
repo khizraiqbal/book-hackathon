@@ -1,0 +1,20 @@
+{
+  "id": "research",
+  "title": "Research Summary: Docusaurus Implementation for Humanoid Robotics Documentation",
+  "description": "Decision: Docusaurus as Documentation Platform",
+  "source": "@site/docs/research.md",
+  "sourceDirName": ".",
+  "slug": "/research",
+  "permalink": "/docs/research",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/research.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Start Guide",
+    "permalink": "/docs/quickstart"
+  }
+}

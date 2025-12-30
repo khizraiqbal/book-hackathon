@@ -1,0 +1,24 @@
+{
+  "id": "plan",
+  "title": "Implementation Plan: Docusaurus Setup for Humanoid Robotics Documentation",
+  "description": "Technical Context",
+  "source": "@site/docs/plan.md",
+  "sourceDirName": ".",
+  "slug": "/plan",
+  "permalink": "/docs/plan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/plan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 4: Vision-Language-Action (VLA) & Capstone",
+    "permalink": "/docs/module4"
+  },
+  "next": {
+    "title": "Quick Start Guide",
+    "permalink": "/docs/quickstart"
+  }
+}

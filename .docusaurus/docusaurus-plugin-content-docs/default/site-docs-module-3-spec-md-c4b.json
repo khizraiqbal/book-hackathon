@@ -1,0 +1,24 @@
+{
+  "id": "module3/spec",
+  "title": "Module 3 – The AI-Robot Brain (NVIDIA Isaac™)",
+  "description": "Overview",
+  "source": "@site/docs/module3/spec.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/spec",
+  "permalink": "/docs/module3/spec",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3/spec.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3 - Isaac ROS – Accelerated perception, VSLAM, and navigation stacks",
+    "permalink": "/docs/module3/chapter3_isaac_ros"
+  },
+  "next": {
+    "title": "Module 4 - Vision-Language-Action (VLA) & Capstone",
+    "permalink": "/docs/category/module-4---vision-language-action-vla--capstone"
+  }
+}

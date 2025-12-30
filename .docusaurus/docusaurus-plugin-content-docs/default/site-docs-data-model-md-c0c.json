@@ -1,0 +1,24 @@
+{
+  "id": "data-model",
+  "title": "Data Model: Humanoid Robotics Documentation Structure",
+  "description": "Overview",
+  "source": "@site/docs/data-model.md",
+  "sourceDirName": ".",
+  "slug": "/data-model",
+  "permalink": "/docs/data-model",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/data-model.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3 - LLM Cognitive Planning – Natural Language → Action Sequences in ROS 2",
+    "permalink": "/docs/module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/docs/intro"
+  }
+}

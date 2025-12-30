@@ -1,0 +1,24 @@
+{
+  "id": "ros2-module/chapter2-python-agents",
+  "title": "Chapter 2: Python Agents in ROS 2",
+  "description": "This chapter explores how to create intelligent agents using Python within the ROS 2 framework, focusing on applications relevant to humanoid robotics.",
+  "source": "@site/docs/ros2-module/chapter2-python-agents.md",
+  "sourceDirName": "ros2-module",
+  "slug": "/ros2-module/chapter2-python-agents",
+  "permalink": "/docs/ros2-module/chapter2-python-agents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-module/chapter2-python-agents.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: ROS 2 Basics",
+    "permalink": "/docs/ros2-module/chapter1-ros2-basics"
+  },
+  "next": {
+    "title": "Chapter 3: URDF for Humanoid Robots",
+    "permalink": "/docs/ros2-module/chapter3-urdf-humanoids"
+  }
+}

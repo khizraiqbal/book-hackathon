@@ -1,0 +1,20 @@
+{
+  "id": "autonomous-humanoid-capstone",
+  "title": "Capstone: Autonomous Humanoid - Voice Command, Navigation, Vision, and Manipulation",
+  "description": "Introduction",
+  "source": "@site/docs/autonomous-humanoid-capstone.md",
+  "sourceDirName": ".",
+  "slug": "/autonomous-humanoid-capstone",
+  "permalink": "/docs/autonomous-humanoid-capstone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/autonomous-humanoid-capstone.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Data Model: Humanoid Robotics Documentation Structure",
+    "permalink": "/docs/data-model"
+  }
+}

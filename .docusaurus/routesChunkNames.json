@@ -1,0 +1,74 @@
+{
+  "/docs-d64": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/docs-270": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
+  },
+  "/docs-773": {
+    "__comp": "a94703ab"
+  },
+  "/docs/docs/intro-2ea": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/docs/module1/chapter1_introduction_to_humanoid_robotics-f18": {
+    "__comp": "17896441",
+    "content": "849f3b9f"
+  },
+  "/docs/module1/chapter2_fundamentals_humanoid_robots-c95": {
+    "__comp": "17896441",
+    "content": "c35cfc0f"
+  },
+  "/docs/module1/chapter3_kinematics_mathematical_foundations-54e": {
+    "__comp": "17896441",
+    "content": "19d63de3"
+  },
+  "/docs/module2/chapter1_introduction_to_digital_twins-d31": {
+    "__comp": "17896441",
+    "content": "63315634"
+  },
+  "/docs/module2/chapter2_gazebo_fundamentals-21b": {
+    "__comp": "17896441",
+    "content": "74adc895"
+  },
+  "/docs/module2/chapter3_unity_human_robot_interaction-406": {
+    "__comp": "17896441",
+    "content": "b022f86b"
+  },
+  "/docs/module3/chapter1_introduction_to_ai_robot_brain-c77": {
+    "__comp": "17896441",
+    "content": "a68a9dd5"
+  },
+  "/docs/module3/chapter2_nvidia_isaac_sim-f83": {
+    "__comp": "17896441",
+    "content": "267540ac"
+  },
+  "/docs/module3/chapter3_isaac_ros-093": {
+    "__comp": "17896441",
+    "content": "d148e758"
+  },
+  "/docs/module4/chapter1_introduction_to_vla_systems-e0f": {
+    "__comp": "17896441",
+    "content": "c72868e0"
+  },
+  "/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers-6dc": {
+    "__comp": "17896441",
+    "content": "a12ee421"
+  },
+  "/docs/module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2-4ef": {
+    "__comp": "17896441",
+    "content": "a946aa42"
+  },
+  "/-2e1": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

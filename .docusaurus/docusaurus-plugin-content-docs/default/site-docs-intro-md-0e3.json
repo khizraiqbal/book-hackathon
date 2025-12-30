@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "Introduction",
+  "description": "Welcome to the Physical AI & Humanoid Robotics learning platform. This comprehensive course covers everything from ROS 2 fundamentals to advanced humanoid robotics concepts.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/docs/intro",
+  "permalink": "/docs/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/docs/intro"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1 - Introduction to Humanoid Robotics Fundamentals",
+    "permalink": "/docs/module1/chapter1_introduction_to_humanoid_robotics"
+  }
+}

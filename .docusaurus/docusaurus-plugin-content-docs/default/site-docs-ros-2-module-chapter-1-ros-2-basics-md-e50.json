@@ -1,0 +1,24 @@
+{
+  "id": "ros2-module/chapter1-ros2-basics",
+  "title": "Chapter 1: ROS 2 Basics",
+  "description": "This chapter introduces the fundamentals of ROS 2 (Robot Operating System 2), the middleware that powers many robotic applications including humanoid robots.",
+  "source": "@site/docs/ros2-module/chapter1-ros2-basics.md",
+  "sourceDirName": "ros2-module",
+  "slug": "/ros2-module/chapter1-ros2-basics",
+  "permalink": "/docs/ros2-module/chapter1-ros2-basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-module/chapter1-ros2-basics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Research Summary: Docusaurus Implementation for Humanoid Robotics Documentation",
+    "permalink": "/docs/research"
+  },
+  "next": {
+    "title": "Chapter 2: Python Agents in ROS 2",
+    "permalink": "/docs/ros2-module/chapter2-python-agents"
+  }
+}

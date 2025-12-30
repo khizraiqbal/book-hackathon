@@ -1,0 +1,28 @@
+{
+  "id": "module2/chapter4_sensor_simulation",
+  "title": "Chapter 4 - Sensor Simulation – LiDAR, Depth Cameras, IMUs, and Data Flow to ROS 2",
+  "description": "Introduction to Sensor Simulation",
+  "source": "@site/docs/module2/chapter4_sensor_simulation.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter4_sensor_simulation",
+  "permalink": "/docs/module2/chapter4_sensor_simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2/chapter4_sensor_simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Chapter 4 - Sensor Simulation – LiDAR, Depth Cameras, IMUs, and Data Flow to ROS 2",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3 - Unity for Human-Robot Interaction – Rendering, Environments, and Interaction Logic",
+    "permalink": "/docs/module2/chapter3_unity_human_robot_interaction"
+  },
+  "next": {
+    "title": "Module 3 - The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/docs/category/module-3---the-ai-robot-brain-nvidia-isaac"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/chapter1_introduction_to_humanoid_robotics",
+              "path": "/docs/module1/chapter1_introduction_to_humanoid_robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/chapter2_fundamentals_humanoid_robots",
+              "path": "/docs/module1/chapter2_fundamentals_humanoid_robots",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/chapter3_kinematics_mathematical_foundations",
+              "path": "/docs/module1/chapter3_kinematics_mathematical_foundations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/chapter1_introduction_to_digital_twins",
+              "path": "/docs/module2/chapter1_introduction_to_digital_twins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/chapter2_gazebo_fundamentals",
+              "path": "/docs/module2/chapter2_gazebo_fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/chapter3_unity_human_robot_interaction",
+              "path": "/docs/module2/chapter3_unity_human_robot_interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/chapter1_introduction_to_ai_robot_brain",
+              "path": "/docs/module3/chapter1_introduction_to_ai_robot_brain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/chapter2_nvidia_isaac_sim",
+              "path": "/docs/module3/chapter2_nvidia_isaac_sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/chapter3_isaac_ros",
+              "path": "/docs/module3/chapter3_isaac_ros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/chapter1_introduction_to_vla_systems",
+              "path": "/docs/module4/chapter1_introduction_to_vla_systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers",
+              "path": "/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2",
+              "path": "/docs/module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

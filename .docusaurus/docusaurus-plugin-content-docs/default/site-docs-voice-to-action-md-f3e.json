@@ -1,0 +1,20 @@
+{
+  "id": "voice-to-action",
+  "title": "Voice-to-Action: Speech Input and ROS 2 Integration",
+  "description": "Introduction",
+  "source": "@site/docs/voice-to-action.md",
+  "sourceDirName": ".",
+  "slug": "/voice-to-action",
+  "permalink": "/docs/voice-to-action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/voice-to-action.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Research Summary: Docusaurus Implementation for Humanoid Robotics Documentation",
+    "permalink": "/docs/research"
+  }
+}

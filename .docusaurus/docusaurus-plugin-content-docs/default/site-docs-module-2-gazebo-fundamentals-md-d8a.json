@@ -1,0 +1,24 @@
+{
+  "id": "module2/gazebo_fundamentals",
+  "title": "Gazebo Fundamentals – Digital Twins, Physics, Gravity, and Collisions",
+  "description": "Introduction to Digital Twins in Robotics",
+  "source": "@site/docs/module2/gazebo_fundamentals.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/gazebo_fundamentals",
+  "permalink": "/docs/module2/gazebo_fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2/gazebo_fundamentals.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to Digital Twins (Gazebo & Unity)",
+    "permalink": "/docs/module2/chapter1_introduction_to_digital_twins"
+  },
+  "next": {
+    "title": "Sensor Simulation – LiDAR, Depth Cameras, IMUs, and Data Flow to ROS 2",
+    "permalink": "/docs/module2/sensor_simulation"
+  }
+}

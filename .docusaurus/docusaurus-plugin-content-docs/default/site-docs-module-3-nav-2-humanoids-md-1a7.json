@@ -1,0 +1,24 @@
+{
+  "id": "module3/nav2_humanoids",
+  "title": "Nav2 for Humanoids – Path planning, localization, and movement",
+  "description": "Introduction to Nav2 for Humanoid Robots",
+  "source": "@site/docs/module3/nav2_humanoids.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/nav2_humanoids",
+  "permalink": "/docs/module3/nav2_humanoids",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module3/nav2_humanoids.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac ROS – Accelerated perception, VSLAM, and navigation stacks",
+    "permalink": "/docs/module3/chapter3_isaac_ros"
+  },
+  "next": {
+    "title": "Module 3 – The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/docs/module3/spec"
+  }
+}

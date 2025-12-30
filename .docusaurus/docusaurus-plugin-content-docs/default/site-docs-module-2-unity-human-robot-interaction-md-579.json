@@ -1,0 +1,24 @@
+{
+  "id": "module2/unity_human_robot_interaction",
+  "title": "Unity for Human-Robot Interaction – Rendering, Environments, and Interaction Logic",
+  "description": "Introduction to Unity in Robotics",
+  "source": "@site/docs/module2/unity_human_robot_interaction.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/unity_human_robot_interaction",
+  "permalink": "/docs/module2/unity_human_robot_interaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module2/unity_human_robot_interaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation – LiDAR, Depth Cameras, IMUs, and Data Flow to ROS 2",
+    "permalink": "/docs/module2/sensor_simulation"
+  },
+  "next": {
+    "title": "Chapter 1: Introduction to AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/docs/module3/chapter1_introduction_to_ai_robot_brain"
+  }
+}

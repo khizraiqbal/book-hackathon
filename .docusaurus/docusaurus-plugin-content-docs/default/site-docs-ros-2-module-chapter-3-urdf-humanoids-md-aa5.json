@@ -1,0 +1,20 @@
+{
+  "id": "ros2-module/chapter3-urdf-humanoids",
+  "title": "Chapter 3: URDF for Humanoid Robots",
+  "description": "This chapter covers the Unified Robot Description Format (URDF), which is essential for modeling humanoid robots in ROS 2 and simulation environments.",
+  "source": "@site/docs/ros2-module/chapter3-urdf-humanoids.md",
+  "sourceDirName": "ros2-module",
+  "slug": "/ros2-module/chapter3-urdf-humanoids",
+  "permalink": "/docs/ros2-module/chapter3-urdf-humanoids",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-module/chapter3-urdf-humanoids.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Python Agents in ROS 2",
+    "permalink": "/docs/ros2-module/chapter2-python-agents"
+  }
+}
