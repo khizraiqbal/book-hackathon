@@ -1,0 +1,28 @@
+{
+  "id": "module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers",
+  "title": "Chapter 2 - Voice-to-Action – Speech Input, Command Parsing, ROS 2 Triggers",
+  "description": "Introduction",
+  "source": "@site/book-website/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers",
+  "permalink": "/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/book-website/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Chapter 2 - Voice-to-Action – Speech Input, Command Parsing, ROS 2 Triggers",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1 - Introduction to Vision-Language-Action (VLA) Systems",
+    "permalink": "/docs/module4/chapter1_introduction_to_vla_systems"
+  },
+  "next": {
+    "title": "Chapter 3 - LLM Cognitive Planning – Natural Language → Action Sequences in ROS 2",
+    "permalink": "/docs/module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2"
+  }
+}

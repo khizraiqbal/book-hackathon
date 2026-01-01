@@ -1,73 +1,73 @@
 {
-  "/docs-d64": {
+  "/docs-01d": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "5a892911"
     }
   },
-  "/docs-270": {
+  "/docs-7d4": {
     "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+    "version": "935f2afb"
   },
-  "/docs-773": {
+  "/docs-4f5": {
     "__comp": "a94703ab"
   },
-  "/docs/docs/intro-2ea": {
+  "/docs/intro-aed": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/module1/chapter1_introduction_to_humanoid_robotics-f18": {
+  "/docs/module1/chapter1_introduction_to_humanoid_robotics-2de": {
     "__comp": "17896441",
     "content": "849f3b9f"
   },
-  "/docs/module1/chapter2_fundamentals_humanoid_robots-c95": {
+  "/docs/module1/chapter2_fundamentals_humanoid_robots-378": {
     "__comp": "17896441",
     "content": "c35cfc0f"
   },
-  "/docs/module1/chapter3_kinematics_mathematical_foundations-54e": {
+  "/docs/module1/chapter3_kinematics_mathematical_foundations-de0": {
     "__comp": "17896441",
     "content": "19d63de3"
   },
-  "/docs/module2/chapter1_introduction_to_digital_twins-d31": {
+  "/docs/module2/chapter1_introduction_to_digital_twins-3c1": {
     "__comp": "17896441",
     "content": "63315634"
   },
-  "/docs/module2/chapter2_gazebo_fundamentals-21b": {
+  "/docs/module2/chapter2_gazebo_fundamentals-987": {
     "__comp": "17896441",
     "content": "74adc895"
   },
-  "/docs/module2/chapter3_unity_human_robot_interaction-406": {
+  "/docs/module2/chapter3_unity_human_robot_interaction-98b": {
     "__comp": "17896441",
     "content": "b022f86b"
   },
-  "/docs/module3/chapter1_introduction_to_ai_robot_brain-c77": {
+  "/docs/module3/chapter1_introduction_to_ai_robot_brain-fb4": {
     "__comp": "17896441",
     "content": "a68a9dd5"
   },
-  "/docs/module3/chapter2_nvidia_isaac_sim-f83": {
+  "/docs/module3/chapter2_nvidia_isaac_sim-ce0": {
     "__comp": "17896441",
     "content": "267540ac"
   },
-  "/docs/module3/chapter3_isaac_ros-093": {
+  "/docs/module3/chapter3_isaac_ros-a69": {
     "__comp": "17896441",
     "content": "d148e758"
   },
-  "/docs/module4/chapter1_introduction_to_vla_systems-e0f": {
+  "/docs/module4/chapter1_introduction_to_vla_systems-e24": {
     "__comp": "17896441",
     "content": "c72868e0"
   },
-  "/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers-6dc": {
+  "/docs/module4/chapter2_voice_to_action_speech_input_command_parsing_ros2_triggers-bce": {
     "__comp": "17896441",
     "content": "a12ee421"
   },
-  "/docs/module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2-4ef": {
+  "/docs/module4/chapter3_llm_cognitive_planning_natural_language_action_sequences_ros2-1a9": {
     "__comp": "17896441",
     "content": "a946aa42"
   },
-  "/-2e1": {
+  "/-614": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "6eb99ab8"
     },
     "config": "5e9f5e1a"
   }

@@ -7,27 +7,6 @@ export default {
   "title": "Physical AI & Humanoid Robotics",
   "tagline": "Learning ROS 2, Python Agents, and Humanoid Robotics",
   "favicon": "img/favicon.ico",
-  "future": {
-    "v4": {
-      "removeLegacyPostBuildHeadAttribute": true,
-      "useCssCascadeLayers": true
-    },
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
-    },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
-    "experimental_router": "browser"
-  },
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
   "organizationName": "facebook",
@@ -131,7 +110,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics. Built with Docusaurus."
+      "copyright": "Copyright © 2026 Physical AI & Humanoid Robotics. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -344,11 +323,6 @@ export default {
         "autoCollapseCategories": false
       }
     },
-    "blog": {
-      "sidebar": {
-        "groupByYear": true
-      }
-    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -357,6 +331,7 @@ export default {
   },
   "baseUrlIssueBanner": true,
   "onBrokenAnchors": "warn",
+  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
@@ -373,18 +348,10 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
-    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
       "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
     }
   }
 };

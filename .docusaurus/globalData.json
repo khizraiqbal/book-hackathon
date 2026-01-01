@@ -12,7 +12,7 @@
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -80,7 +80,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

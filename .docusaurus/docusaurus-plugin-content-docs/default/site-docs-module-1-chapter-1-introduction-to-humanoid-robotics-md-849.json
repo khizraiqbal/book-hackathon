@@ -19,7 +19,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/docs/intro"
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "Chapter 2 - Fundamentals of Humanoid Robotics – History, Components, and Applications",

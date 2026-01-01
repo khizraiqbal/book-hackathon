@@ -1,0 +1,28 @@
+{
+  "id": "module1/chapter2_fundamentals_humanoid_robots",
+  "title": "Chapter 2 - Fundamentals of Humanoid Robotics – History, Components, and Applications",
+  "description": "Introduction to Humanoid Robotics",
+  "source": "@site/book-website/docs/module1/chapter2_fundamentals_humanoid_robots.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/chapter2_fundamentals_humanoid_robots",
+  "permalink": "/docs/module1/chapter2_fundamentals_humanoid_robots",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/book-website/docs/module1/chapter2_fundamentals_humanoid_robots.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Chapter 2 - Fundamentals of Humanoid Robotics – History, Components, and Applications",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1 - Introduction to Humanoid Robotics Fundamentals",
+    "permalink": "/docs/module1/chapter1_introduction_to_humanoid_robotics"
+  },
+  "next": {
+    "title": "Chapter 3 - Kinematics and Mathematical Foundations – Forward/Inverse Kinematics, Transformations, and Motion Planning",
+    "permalink": "/docs/module1/chapter3_kinematics_mathematical_foundations"
+  }
+}
