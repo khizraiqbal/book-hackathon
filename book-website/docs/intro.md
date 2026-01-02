@@ -1,14 +1,6 @@
 ---
 ---
 
----
-sidebar_position: 1
----
-# Introduction
-
-Welcome to my project documentation!
-
-
 # Introduction
 
 Welcome to the Physical AI & Humanoid Robotics learning platform. This comprehensive course covers everything from ROS 2 fundamentals to advanced humanoid robotics concepts.
