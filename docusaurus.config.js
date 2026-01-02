@@ -20,7 +20,7 @@ const config = {
   // },
 
   // Set the production url of your site here
-  url: 'https://book-hackathon-33ii-qq0t2gnf6-khizra-iqbals-projects-2ac55d15.vercel.app',
+  url: 'ttps://book-hackathon-33ii.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
